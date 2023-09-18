@@ -5,13 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NMS_PauseBeGone"
         mc:Ignorable="d"
-        Title="PAUSE BE GONE" Height="108" Width="229" ResizeMode="NoResize" Icon="/nms.png" WindowStartupLocation="CenterScreen">
-    <Grid HorizontalAlignment="Center" Width="174" Height="48" VerticalAlignment="Center">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Label x:Name="label_gameStatus" Content="游戏状态：N/A" VerticalAlignment="Top" HorizontalContentAlignment="Center" RenderTransformOrigin="0.836,0.579" HorizontalAlignment="Center" Width="174"/>
-        <CheckBox x:Name="chkbox_active" Content="使程序生效" Margin="0,23,0,0" Checked="CheckBox_Checked" HorizontalAlignment="Center" Height="15" VerticalAlignment="Top" IsChecked="True"/>
-        <Label Content="@kBlankii" Margin="0,0,-20,-12" HorizontalContentAlignment="Right" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="#7F000000"/>
+        Title="PAUSE BE GONE" Height="108" Width="222" ResizeMode="NoResize" Icon="/nms.png" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,0">
+        <Grid Height="44" VerticalAlignment="Top" HorizontalAlignment="Center" Width="232" Margin="0,10,0,0">
+            <Label x:Name="label_gameStatus" Content="游戏状态：N/A" VerticalAlignment="Top" HorizontalContentAlignment="Center" RenderTransformOrigin="0.836,0.579" HorizontalAlignment="Center" Width="174" Margin="0,-1,0,0"/>
+            <CheckBox x:Name="chkbox_active" Content="使程序生效" Margin="0,22,0,0" Checked="CheckBox_Checked" HorizontalAlignment="Center" Height="15" VerticalAlignment="Top" IsChecked="True"/>
+        </Grid>
+        <Label Content="@kBlankii" HorizontalContentAlignment="Right" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="#7F000000"/>
     </Grid>
 </Window>
