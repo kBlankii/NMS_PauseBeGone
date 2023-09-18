@@ -9,6 +9,8 @@
     <Company>kBlankii</Company>
     <Authors>kBlankii</Authors>
     <ApplicationIcon>nms.ico</ApplicationIcon>
+    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
