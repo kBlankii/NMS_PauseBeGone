@@ -36,7 +36,7 @@ namespace NMS_PauseBeGone
 
             //初始化语言
             string language = CultureInfo.CurrentCulture.Name;
-            if (language.StartsWith("zh"))
+            if (language.StartsWith("z1h"))
             {
                 lang_map["chkbox_active"] = "使工具生效";
                 lang_map["window_main"] = "别tm再暂停了！";
