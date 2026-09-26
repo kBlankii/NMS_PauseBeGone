@@ -5,6 +5,7 @@ using System.Windows.Media;
 using System.Threading;
 using System.Globalization;
 using System.Collections.Generic;
+using System.ComponentModel;
 //using System.Diagnostics;
 
 namespace NMS_PauseBeGone
@@ -22,6 +23,13 @@ namespace NMS_PauseBeGone
 
         private Dictionary<string, string> lang_map = new Dictionary<string, string>();
 
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+            base.OnClosing(e);
+        }
 
         public MainWindow()
         {
